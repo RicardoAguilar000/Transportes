@@ -1,0 +1,331 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: hsl(201, 24%, 14%);
+    
+    margin: 0;
+    background-image: url(../imagenes/bannercotizar.jpg);
+}
+
+header{
+    
+    margin-top: -40px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center; 
+ }
+
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 90%;
+    height: 100%;
+    
+    background-image: url(../img/bannercotizar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* CONTENEDOR PRINCIPAL*/
+#contenedorcentrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    
+    min-width: 380px;
+    max-width: 900px;
+    width: 90%;
+    
+    background: rgb(144, 1, 1);
+    background: linear-gradient(0deg, rgba(95, 6, 6, 0.67) 0%, rgb(100, 7, 7) 100%);
+
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* CONTENEDOR PRINCIPAL*/
+#contenedorcentradoCrear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    
+    min-width: 380px;
+    max-width: 900px;
+    width: 90%;
+    
+    background: rgb(144, 1, 1);
+    background: linear-gradient(0deg, rgba(95, 6, 6, 0.67) 0%, rgb(100, 7, 7) 100%);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* CUADRO LOGDATOS */
+#login {
+    width: 100%;
+    max-width: 320px;
+    min-width: 320px;
+    padding: 30px 30px 50px 30px;
+
+    background: rgb(28,28,37);
+background: linear-gradient(0deg, rgba(28,28,37,0.6699054621848739) 0%, rgba(116,112,112,1) 100%);
+
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+    
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+/* TEXTO LOGDATOS*/
+
+#login label {
+    display: block;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color:#fcfcfc;
+    
+    margin-top: 15px;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #000000;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+/*migaja*/
+
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background: rgb(144, 1, 1);
+    background: linear-gradient(0deg, rgba(95, 6, 6, 0.76) 0%, rgba(100, 7, 7, 0.678) 100%);
+    margin-top: -3px;
+    margin-bottom: -2px;
+    
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 22px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #0f0f0f;
+    text-decoration: underline;
+  }
+
+
+  
+/* fin migaja */
+
+
+/* LETRA INPUT*/ 
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #262b28;
+}
+
+
+
+/* BOTON ACPETAR */
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+background: rgb(179, 169, 146);
+    
+    margin-top: 10px;
+}
+
+
+#login button:hover {
+    background: rgb(144, 1, 1);
+    background: linear-gradient(0deg, rgba(95, 6, 6, 0.76) 0%, rgba(100, 7, 7, 0.678) 100%);
+    color: #ffffff;
+   
+}
+
+
+/* BOTON ADMINISTRADOR */
+.boton-administrador button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+background: rgb(179, 169, 146);
+    
+    margin-top: 10px;
+}
+
+
+.boton-administrador button:hover {
+    background: rgb(144, 1, 1);
+    background: linear-gradient(0deg, rgba(95, 6, 6, 0.76) 0%, rgba(100, 7, 7, 0.678) 100%);
+    color: #ffffff;
+   
+}
+
+
+#derecho {
+    /*display: flex;
+    align-items:center;
+    justify-content:center;*/
+    
+    text-align: center;
+    width: 100%;
+    
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    
+    padding:20px 20px 20px 50px;
+    box-sizing: border-box;
+}
+
+/* TITULO TRANSPORTA*/
+.titulo {
+    font-size: 400%;
+    color:#ffffff;
+}
+
+
+hr {
+    border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #dfcdc3;
+    
+
+}
+
+
+.pie-form {
+    font-size: 110%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #dfcdc3;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #719192;
+}
+
+
+
+
+
+/* ajustar a pantallas con diferente */
+@media all and (max-width: 775px)
+{
+    #contenedorcentrado {
+        flex-direction:column-reverse;
+
+        min-width: 380px;
+        max-width: 900px;
+        width: 90%;
+
+        background-color: #ce8b26;
+
+
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+        box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    #login {
+        margin: 0 auto;
+    }
+    
+    #derecho {
+        padding:20px 20px 20px 20px;
+    }
+    
+    #login label {
+        text-align: left;
+    }
+}
+/* Fin de estilos de login */

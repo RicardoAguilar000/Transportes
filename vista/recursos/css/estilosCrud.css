@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+:root{
+scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header{
+   margin-top: -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.hamburguer{
+    width: 30%;
+    margin-right: -350px;
+    margin-left: 150px;
+    padding: 5%;
+    border-radius: 35%;
+    background: rgb(14, 64, 228);
+}
+.mar{
+   width: 30%;
+}
+
+.icon{
+    width: 15%;
+    padding: auto;
+
+}
+  
+.hamburguer:hover{
+    background: #949494;
+}
+
+.tamaño {
+    padding: 15%;
+}
+.tamaño2{
+    width: 100%;
+}
+
+
+a:hover {
+    background: #949494;
+    border-radius: 5px;
+}
+.logo{
+    border-radius: 50%;
+    border: solid white;
+    width: 6%;
+    margin-top: 5px ;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    
+}
+   
+
+.barra{
+    background: rgb(14, 64, 228);
+    margin-bottom: 8opx ;
+    margin-top: 40px;
+    
+}
+.spread{
+    transform: translate(0);
+}
+
+.menu-navegacion a{ 
+    background: rgb(163,45,16);
+    background: linear-gradient(0deg, rgba(163,45,16,0.6699054621848739) 15%, rgba(195,80,14,1) 100%);
+}
+
+/*inicio de footer*/
+footer{
+    margin-top: 40px;
+    background: rgb(14, 64, 228);
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contact-us{
+    width: 40%;
+    color: #fff;
+}
+
+.brand{
+font-weight: 500;
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{
+    background: #fcfcfc;
+    color: #0e40e4;
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+/*FIN FOOTER*/
+
+/*titulo */
+.titulo{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 100px 0 30px 0;
+    color: #000000;
+}
+
+/*fin titulo*/
+
+/*Tabla comienso*/
+
+
+table tbody tr:nth-child(odd) {
+	background: #fff5e0;
+}
+table tbody tr:nth-child(even) {
+	background: #fdf8ef;
+}
+table thead {
+    background:#0e40e4;
+    color: #fff;
+    font-size: 18px;
+}
+.table{
+ margin-top: 10px;
+ border-radius: 20%;
+}
+
+.table tr{
+    text-align: center;
+}
+
+.table tr:hover{
+    background: #949494;
+    color: #fff;
+}
+
+/*Aqui Termina tabla*/
+
+
+/*foto tabla*/
+ .table img{
+    width: 60px;
+    height: 60px;
+    border: 0;
+ }
+
+/*fin foto tabla*/
+
+/*boton crear */
+
+.crear button{
+    color: #fff;
+    border-color: #0f0f0f;
+}
+
+.crear button:hover{
+    color: #fff;
+    border-color: #0f0f0f;
+}
+/*fin boton crear*/
+
+/*boton editar*/
+.editar button{
+    color: #fff;
+    background: rgb(238, 223, 18);
+    border-color: #0f0f0f;
+}
+.editar button:hover{
+    color: #fff;
+    background:#0e40e4;
+    border-color: #0f0f0f;
+}
+/*fin boton editar*/
+
+/*boton eliminar*/
+.eliminar button{
+    color: #fff;
+    background: rgb(245, 25, 25);
+    border-color: #0f0f0f;
+}
+.eliminar button:hover{
+    color: #fff;
+    background:#0e40e4;
+    border-color: #0f0f0f;
+}
+/*fin boton eliminar*/
+
+
+
+/*header modal*/
+
+.modal-header{
+    background:#0e40e4;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*fin header modal*/
+
+/*formulario modal*/
+
+.modal-body label{
+     color: #000000;
+    font-size: 18px;
+}
+
+
+
+/*Fin formulario modal*/
+
+/*boton modal
+.boton-modal input{
+    color: #fff;
+    background: rgb(163,45,16);
+    background: linear-gradient(0deg, rgba(163,45,16,0.6699054621848739) 15%, rgba(195,80,14,1) 100%);
+    border-color: #0f0f0f;
+}
+
+.boton-modal input:hover{
+    color: #fff;
+    background: rgb(144, 1, 1);
+    background: linear-gradient(0deg, rgba(95, 6, 6, 0.76) 0%, rgba(100, 7, 7, 0.678) 100%);
+    border-color: #0f0f0f;
+}
+
+fin boton modal*/
+
+/*migaja*/
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background:#0e40e4;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 22px;
+  }
+  ul.breadcrumb li+li:before {
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #0f0f0f;
+  }
+/* fin migaja */
+
+
+
+@media screen and (max-width: 991px) {
+    .barra{
+    padding-bottom: 20px;
+   
+    }
+    .logo {
+        height: 55px;
+        width: 55px;
+    }
+    .tamaño {
+        padding: 20%;
+    }
+}
+
+    
+
+
+@media screen and (max-width: 800px) {
+    .menu-navegacion {
+        width: 50vw;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .checklist-servicio {
+        width: 80%;
+    }
+
+    .service {
+        margin-bottom: 30px;
+    }
+
+    .cont-expert {
+        width: 80%;
+    }
+
+    .social-media {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media i {
+        margin-left: 0;
+    }
+
+    .footer-content {
+        justify-content: center;
+    }
+
+    .social-media-icon {
+        margin-left: 0;
+    }
+
+    .contact-us {
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}

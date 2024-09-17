@@ -1,0 +1,139 @@
+#control_map{     
+	
+	width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+	padding-left: 30px;
+        margin-top: 20px;
+		background: rgb(144, 1, 1);
+        background: linear-gradient(0deg, rgba(95, 6, 6, 0.67) 0%, rgb(100, 7, 7) 100%);
+		border-radius: 10px;
+		text-align: center;
+}
+.map{                    
+	position: relative;
+	right: 50px;
+	top:0px;                    
+        
+}
+#content_mapa{
+	float:right;
+}
+.content_list_states{
+	float:left;
+	color: #555;   
+	                 
+}
+.listaEdos{          
+
+	cursor:pointer;
+	margin: 11px 0px;
+	display: block;
+	font-size: 16px;
+	color: white;
+}
+.listaEdos:hover,.listaEdosHover{
+	color: #0acffb;
+	font-weight: 600;
+}
+.listaEdosActive{
+	color: #0acffb;
+	font-weight: 600;
+}
+
+#edo{/*letras del estado*/
+	/*position: absolute;top: 120px;left: 560px;*/
+        position: relative; top: -440px;left: 265px;
+        font-size: 2em;
+	color: #f7f3f5 ;z-index: 2;
+	text-align: center;
+	width: 300px;
+}
+
+.contenedor3{
+  margin-left: 500px;
+  
+}
+
+
+.AGU{background-position: 960px 480px;}.BCN{background-position: 840px 480px;}.BCS{background-position: 720px 480px;}.CAM{background-position: 600px 480px;}.COA{background-position: 480px 480px;}.COL{background-position: 360px 480px;}.CHP{background-position: 240px 480px;}.CHH{background-position: 120px 480px;}.DIF{background-position: 960px 360px;}.DUR{background-position: 840px 360px;}.GUA{background-position: 720px 360px;}.GRO{background-position: 600px 360px;}.HID{background-position: 480px 360px;}.JAL{background-position: 360px 360px;}.MEX{background-position: 240px 360px;}.MIC{background-position: 120px 360px;}.MOR{background-position: 960px 240px;}.NAY{background-position: 840px 240px;}.NLE{background-position: 720px 240px;}.OAX{background-position: 600px 240px;}.PUE{background-position: 480px 240px;}.QUE{background-position: 360px 240px;}.ROO{background-position: 240px 240px;}.SLP{background-position: 120px 240px;}.SIN{background-position: 960px 120px;}.SON{background-position: 840px 120px;}.TAB{background-position: 720px 120px;}.TAM{background-position: 600px 120px;}.TLA{background-position: 480px 120px;}.VER{background-position: 360px 120px;}.YUC{background-position: 240px 120px;}.ZAC{background-position: 120px 120px;}
+
+
+@media screen and (max-width: 1480px) {
+ 
+	#control_map{                    
+		width: 40%;
+		background: none;
+		
+		
+	}
+
+	.listaEdos{          
+	display: none;
+}
+#edo{
+	color: rgb(255, 255, 255);
+	background: rgb(144, 1, 1);
+	background: linear-gradient(0deg, rgba(95, 6, 6, 0.67) 0%, rgb(100, 7, 7) 100%);
+	border-radius: 5px;
+}
+	
+}
+
+
+
+
+@media screen and (max-width: 1061px) {
+ 
+	#control_map{        
+		
+		
+		width: 40%;
+		background: none;
+		
+		
+	}
+
+	
+}
+
+@media screen and (max-width: 1500px) {
+
+	#content_mapa{
+		display: none;
+	}
+ 
+	#control_map{                    
+		display: none;
+		
+		
+	}
+
+	#edo{
+		display: none;
+
+	}
+	
+}
+
+@media screen and (max-width: 720px) {
+ 
+	#control_map{                    
+		display: none;
+
+		
+	}
+	
+	
+
+	#edo{
+		display: none;
+
+	}
+	
+}
+
+
+

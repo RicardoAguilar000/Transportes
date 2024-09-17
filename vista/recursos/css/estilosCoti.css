@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  /*Estilos richi*/
+
+  .fondo{
+    width: 1270px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.contenedor{
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+
+header{
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+
+
+.hamburguer:hover{
+  background: rgb(255, 200, 0);
+
+}
+.tamaño {
+  padding: 15%;
+}
+.tamaño2{
+  width: 100%;
+}
+
+
+.menu_list ul li a:hover {
+  background: #5f5654db;
+  border-radius: 5px;
+}
+
+.logo{
+  border-radius: 50%;
+  border: solid white;
+  width: 6%;
+  margin-top: 5px ;
+  margin-right: 50px;
+  margin-bottom: 5px;
+  
+}
+
+.spread{
+  transform: translate(0);
+}
+
+.menu-navegacion a{
+  color: #fff;
+  text-decoration: none;
+}
+/*fin estilos richi*/
+
+  /*ICONOS REDES SOCIALES*/
+
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e44077;
+    --twitter: #55acee;
+    --pinterest: #bd081c;
+    --linkedin: #0077B5;
+}
+.contenedor_social{
+    width: 100%;
+    position: relative;
+    
+}
+
+.redes_sociales{
+    max-width: 55px;
+    position: fixed;
+    top: 30%;
+    display: block;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes_sociales ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.redes_sociales ul li a{
+    display: block;
+    padding: 0 10px;
+    background:#333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2s;
+}
+
+.redes_sociales ul:hover a{
+    filter: blur(2px);
+}
+
+.redes_sociales ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .2);
+    filter: none;
+}
+
+.redes_sociales ul li .facebook:hover{
+    background: var(--facebook);
+}
+.redes_sociales ul li .instagram:hover{
+    background: var(--instagram);
+}
+.redes_sociales ul li .twitter:hover{
+    background: var(--twitter);
+}
+.redes_sociales ul li .pinterest:hover{
+    background: var(--pinterest);
+}
+.redes_sociales ul li .linkedin:hover{
+    background: var(--linkedin);
+}
+/*FIN ICONOS */
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+    /*background-color: #e5e5f7;
+    background-image:  radial-gradient(#ab1f1f 0.5px, transparent 0.5px), radial-gradient(#ab1f1f 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    display: block;
+    min-height: 100vh;*/
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(46, 41, 56, 0.5) 0%, rgba(70, 65, 68, 0.5) 100%), 
+    url(../img/volvo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .formulario{
+    background-image: linear-gradient(135deg, #f7f7f7e1 0%, #f8f8f8e8 100%);
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+
+  .titulo_formulario{
+    font-size: 2rem;
+    margin-bottom: .5em;
+  }
+
+  .parrafo{
+    font-weight:300;
+  }
+
+  .contenedor_principal{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+    
+  }
+  .contenedor_producto{
+    display: flex;
+    position: relative;
+    top: 50px;
+  }
+
+  .form_grupo{
+    position: relative;
+    --color: #5757577e;
+  }
+  
+.pixel{
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    bottom: 50px;
+    margin-top: 30px;
+}
+
+
+
+  .form_input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  .form_input:not(:placeholder-shown){
+    color: #4d4646;
+  }
+
+  .form_input:focus + .form_label,
+  .form_input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #3866f2;
+  }
+
+  .form_label{
+    color: var(--color);
+    /*cursor: pointer;*/
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+  }
+
+  .form_submit{
+    background: #3866f2;
+    color: #fff;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+  }
+
+  .form_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #3866f2;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+  }
+
+  .form_input:focus + .form_line,
+  .form_input:not(:placeholder-shown) ~ .form_line{
+    transform: scale(1);
+  }
+
+  .hamburguer{
+    position: fixed;
+      top: 30px;
+      right: 30px;
+      background: #635e5ef8;
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+  }
+
+
+  .spread{
+    transform: translate(0);
+  }
+
+  .menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /*INICIO FOOTER*/
+
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.contact-us{
+  width: 40%;
+  color: #fff;
+}
+
+.brand{
+font-weight: 500;
+font-size: 30px;
+margin-bottom: 30px;
+}
+
+
+.brand+p{
+  font-weight: 500;
+}
+
+.social-media{
+width: 50%;
+display: flex;
+justify-content: flex-end;
+}
+
+.social-media-icon{
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.social-media-icon:hover{
+background: #fff;
+color: #900101;
+}
+
+.social-media-icon i{
+  font-size: 30px;
+  line-height: 60px;
+}
+.line{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+/*FIN FOOTER*/
+
+  
+  
+  @media (max-width:990px){   
+     
+    .menu-navegacion {
+        width: 50vw;
+    }
+    .social-media {
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media i {
+        margin-left: 0;
+    }
+
+    .footer-content {
+        justify-content: center;
+    }
+
+    .social-media-icon {
+        margin-left: 0;
+    }
+
+    .contact-us {
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .titulo_formulario{
+        font-size: 1.8rem;
+    }
+    
+    .contenedor_producto{
+        margin-top: 3em;
+        display: grid;
+        gap: 2.5em;
+      }
+      
+      .pixel{
+        position: absolute;
+        width: 30px;
+        height: 40px;
+        left: 95%;
+        bottom: 5%;
+    }
+
+    .contenedor_social{
+        width: 100%;
+        position: relative;
+        margin-top: 110px;
+        display: inline-flex;
+    }
+
+    .redes_sociales{
+        max-width: inherit;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .redes_sociales ul li{
+        display: inline-block;
+        margin: 0 5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+    }
+    
+    .redes_sociales ul li a{
+        display: block;
+        padding: 0 8px;
+        background:#333;
+        color: #fff;
+        line-height: 25px;
+        font-size: 11px;
+    }
+    .formulario{
+      margin-top: 20px;
+    }
+    .contenedor_social{
+
+  position: absolute;
+  
+  }
+  
+   .formulario{
+  
+   margin-top: 60px;
+  
+  }
+  
+  }

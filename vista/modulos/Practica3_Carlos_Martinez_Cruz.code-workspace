@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../Practica3_Carlos_Martinez_Cruz"
+		},
+		{
+			"path": "../../../../../Escritorio/ING SISTEMAS/Desarrollo web prof/Tarea3_Carlos_Martínez_Cruz"
+		},
+		{
+			"path": "../../../proyecto_consultas"
+		},
+		{
+			"path": "../../../crudPHP"
+		},
+		{
+			"path": "../../../app"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../Escritorio/Practica_Git_2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Tarea3_Carlos_Martínez_Cruz"
+	}
+}
